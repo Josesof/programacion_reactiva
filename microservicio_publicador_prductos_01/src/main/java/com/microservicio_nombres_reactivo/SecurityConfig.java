@@ -24,8 +24,8 @@ public class SecurityConfig {
   @Bean
   public MapReactiveUserDetailsService user() throws Exception{
     List<UserDetails> users = List.of(
-      User.withUsername("user1")
-        .password("{noop}user1")
+      User.withUsername("user")
+        .password("{noop}user")
         .roles("USER")
         .build(),
       User.withUsername("admin")
@@ -46,7 +46,8 @@ public class SecurityConfig {
     .authorizeExchange(auth->
         auth.pathMatchers(HttpMethod.POST, "/alta").hasAnyRole("ADMIN")
           .pathMatchers(HttpMethod.DELETE,"/eliminar/**").hasAnyRole("ADMIN","OPERATOR")
-          .pathMatchers("/productos/**").authenticated()
+          .pathMatchers(HttpMethod.GET,"/productos").hasAnyRole("ADMIN","USER","OPERATOR")
+          .pathMatchers("**").authenticated()
           .anyExchange().permitAll()
     )
     .httpBasic(Customizer.withDefaults());

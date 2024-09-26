@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b8e7995-3b33-4a8a-89ec-19a337048306" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservicio_nombres_reactivo/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservicio_nombres_reactivo/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservicio_nombres_reactivo/controller/NamesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservicio_nombres_reactivo/controller/ProductosController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservicio_nombres_reactivo/model/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservicio_nombres_reactivo/service/ProductosService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservicio_nombres_reactivo/service/ProductosServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservicio_nombres_reactivo/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservicio_nombres_reactivo/ServicesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_microservicio_nombres_reactivo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-cliente-rastreador.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_01/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_01/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_01/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_01/src/main/java/com/microservicio/reactivo/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_01/src/main/java/com/microservicio/reactivo/model/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_01/src/main/java/com/microservicio/reactivo/runners/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_01/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_01/src/test/java/com/microservicio/reactivo/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/src/main/java/com/microservicio/productos/reactivo/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/src/main/java/com/microservicio/productos/reactivo/controller/NamesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/src/main/java/com/microservicio/productos/reactivo/controller/ProductosController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/src/main/java/com/microservicio/productos/reactivo/model/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/src/main/java/com/microservicio/productos/reactivo/service/ProductosService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/src/main/java/com/microservicio/productos/reactivo/service/ProductosServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/src/test/java/com/microservicio/productos/reactivo/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_publicador_02/src/test/java/com/microservicio/productos/reactivo/ServicesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_rastreador_security/src/main/java/com/microservicio/rastreador/reactivo/service/ElementosServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../microservicio_rastreador_security/src/main/java/com/microservicio/rastreador/reactivo/service/ElementosServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservicio_rastreador_security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../microservicio_rastreador_security/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2luPO6q3cY31IstoPNV2QxyjfAS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/josejhouar.mosquerar/Documents/personal-user-jose/general-java-programing/programacion-reactiva-con-kafka/microservicio_publicador_prductos_db"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.microservicio_nombres_reactivo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.microservicio_nombres_reactivo.Application" />
+      <module name="reactivo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservicio_nombres_reactivo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02_microservicio.productos.reactivo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservicio_nombres_reactivo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microservicio_nombres_reactivo" />
+      <option name="MAIN_CLASS_NAME" value="com.microservicio_nombres_reactivo.ApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02_microservicio.productos.reactivo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservicio_nombres_reactivo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microservicio_nombres_reactivo" />
+      <option name="MAIN_CLASS_NAME" value="com.microservicio_nombres_reactivo.ServicesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="02_microservicio.productos.reactivo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="02_microservicio.productos.reactivo" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.ServicesTest" />
+        <item itemvalue="JUnit.ApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b8e7995-3b33-4a8a-89ec-19a337048306" name="Changes" comment="" />
+      <created>1726026958727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726026958727</updated>
+    </task>
+    <servers />
+  </component>
+</project>
