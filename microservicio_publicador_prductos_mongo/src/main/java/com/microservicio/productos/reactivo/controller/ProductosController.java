@@ -33,7 +33,6 @@ public class ProductosController {
 
   @PostMapping(value= "alta", consumes = MediaType.APPLICATION_JSON_VALUE)
   public ResponseEntity<Mono<Void>> altaProdcto(@RequestBody Producto producto){
-    producto.setNuevo(true);
     return new ResponseEntity<>(productosService.altaProducto(producto), HttpStatus.OK);
   }
 
