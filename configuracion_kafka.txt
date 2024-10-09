@@ -1,0 +1,16 @@
+	@Bean
+	public ConsumerFactory<String, Envio> consumerFactory() {
+	    Map<String, Object> props = new HashMap<>();
+	    props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+	    props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
+	    props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, JsonDeserializer.class);
+	    props.put(JsonDeserializer.USE_TYPE_INFO_HEADERS, "false");
+	    props.put(JsonDeserializer.VALUE_DEFAULT_TYPE, Envio.class);
+	    return new DefaultKafkaConsumerFactory<>(props);
+	}
+	@Bean
+    KafkaListenerContainerFactory<ConcurrentMessageListenerContainer<String, Envio>> kafkaListenerContainerFactory() {
+        ConcurrentKafkaListenerContainerFactory<String, Envio> factory = new ConcurrentKafkaListenerContainerFactory<>();
+        factory.setConsumerFactory(consumerFactory());
+        return factory;
+    }
