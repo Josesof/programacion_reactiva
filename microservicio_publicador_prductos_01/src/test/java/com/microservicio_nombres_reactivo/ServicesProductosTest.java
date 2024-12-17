@@ -1,6 +1,5 @@
 package com.microservicio_nombres_reactivo;
 
-import com.microservicio_nombres_reactivo.controller.NamesController;
 import com.microservicio_nombres_reactivo.model.Producto;
 import com.microservicio_nombres_reactivo.service.ProductosService;
 import org.junit.jupiter.api.MethodOrderer;
@@ -13,7 +12,7 @@ import reactor.test.StepVerifier;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @SpringBootTest
-public class ServicesTest {
+public class ServicesProductosTest {
 
   @Autowired
   ProductosService productosService;

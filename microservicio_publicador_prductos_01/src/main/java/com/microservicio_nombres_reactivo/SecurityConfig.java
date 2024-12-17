@@ -44,7 +44,7 @@ public class SecurityConfig {
   public SecurityWebFilterChain filter(ServerHttpSecurity http) throws Exception {
   http.csrf(c-> c.disable())
     .authorizeExchange(auth->
-        auth.pathMatchers(HttpMethod.POST, "/alta").hasAnyRole("ADMIN")
+        auth//.pathMatchers(HttpMethod.POST, "/alta").hasAnyRole("ADMIN")
           .pathMatchers(HttpMethod.DELETE,"/eliminar/**").hasAnyRole("ADMIN","OPERATOR")
           .pathMatchers(HttpMethod.GET,"/productos").hasAnyRole("ADMIN","USER","OPERATOR")
           .pathMatchers("**").authenticated()

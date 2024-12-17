@@ -37,23 +37,24 @@ public class ProductosServiceImpl implements ProductosService{
   @Override
   public Mono<Producto> productoCodigo(Integer cod) {
     return catalogo()
-      .filter(producto -> producto.getCodProduto()==cod)//Flux<Producto>
+      .filter(producto -> producto.getCodProduto() == cod)//Flux<Producto>
       .next();//Mono<Producto>
       //.switchIfEmpty(Mono.just(new Producto()))
   }
 
   @Override
   public Mono<Void> altaProducto(Producto producto) {
-    return productoCodigo(producto.getCodProduto())
+    return productoCodigo(producto.getCodProduto())//Mono<Producto>
       .switchIfEmpty(Mono.just(producto).map(p ->{
         productos.add(producto);
         return p;
-      })).then();//Mono<Void>
+      }))//Mono<Producto>
+      .then();//Mono<Void>
   }
 
   @Override
   public Mono<Producto> eliminarProducto(Integer cod) {
-    return productoCodigo(cod)
+    return productoCodigo(cod)//Mono<Producto>
       .map(producto -> {
         productos.removeIf(productoEliminar -> productoEliminar.getCodProduto()==cod);
         return producto;
