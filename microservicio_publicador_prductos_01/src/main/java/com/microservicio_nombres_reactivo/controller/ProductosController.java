@@ -20,7 +20,7 @@ public class ProductosController {
   @Autowired
   private ProductosService productosService;
 
-  @GetMapping(value = "productos")
+  @GetMapping(value = "allProductos")
   public ResponseEntity<Flux<Producto>> productos(){
     return new ResponseEntity<>(productosService.catalogo(), HttpStatus.OK);
   }

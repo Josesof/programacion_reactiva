@@ -46,7 +46,7 @@ public class SecurityConfig {
     .authorizeExchange(auth->
         auth//.pathMatchers(HttpMethod.POST, "/alta").hasAnyRole("ADMIN")
           .pathMatchers(HttpMethod.DELETE,"/eliminar/**").hasAnyRole("ADMIN","OPERATOR")
-          .pathMatchers(HttpMethod.GET,"/productos").hasAnyRole("ADMIN","USER","OPERATOR")
+          .pathMatchers(HttpMethod.GET,"/allProductos/**").hasAnyRole("ADMIN","USER","OPERATOR")
           .pathMatchers("**").authenticated()
           .anyExchange().permitAll()
     )
