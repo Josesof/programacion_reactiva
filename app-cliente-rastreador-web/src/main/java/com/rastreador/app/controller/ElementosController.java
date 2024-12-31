@@ -14,8 +14,10 @@ public class ElementosController {
 
   @Autowired
   ElementoServiceImpl elementoService;
+
 @GetMapping(value = "buscaPreciosr")
   public String buscaPreciosr(@RequestParam("precio") double precioMax, Model model){
+  //Encapsula objetos reactivos
     IReactiveDataDriverContextVariable reactive
       = new ReactiveDataDriverContextVariable(elementoService.elementoPorPrecio(precioMax), 1);
     model.addAttribute("resultado", reactive);
